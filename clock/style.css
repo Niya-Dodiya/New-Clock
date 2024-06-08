@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: palevioletred;
+    margin-bottom: 150px;
+    height: 80px;
+    padding-top: 15px;
+    font-size: 45px;
+
+}
+
+body{
+    background-color: black;
+}
+
+.clock{
+    border: 8px solid aqua;
+    position: relative;
+    display: flex;
+     justify-content: center;
+    margin: 0 auto;
+    font-size:15px;
+    border-radius: 50%;
+    background-color: white; 
+   height: 50vh;
+   width: 50vh;
+           
+    }
+
+    .point{
+        width: 10px;
+        height: 10px;
+background-color: black;
+border-radius: 50%;
+position: absolute;
+top: 165px;
+left: 169spx;
+    }
+    .hour{
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        position: absolute;
+    }
+    .hour-1{
+        top: 30px;
+        right: 90px;
+    }
+    .hour-2{
+        top: 80px;
+        right: 40px;
+    } 
+    .hour-3{
+        top: 155px;
+        right: 20px;
+    } 
+    .hour-4{
+        top: 225px;
+        right: 45px;
+    } 
+    .hour-5{
+        top: 280px;
+        right: 90px;
+    } 
+    .hour-6{
+        top: 300px;
+        right: 160px;
+    } 
+    .hour-7{
+        top: 280px;
+        right: 230px;
+    } 
+    .hour-8{
+        top: 225px;
+        right: 280px;
+    } 
+    .hour-9{
+        top: 155px;
+        right: 310px;
+    }
+     .hour-10{
+        top: 80px;
+        right: 280px;
+    } 
+    .hour-11{
+        top: 30px;
+        right: 230px;
+    }
+     .hour-12{
+        top: 10px;
+        right: 155px;
+    }
+    
+    .min-hand-wrap{
+
+        width: 250px;
+        height: 290px;
+        position: absolute;
+        border-radius: 50%;
+        top: 30px;
+    }
+    .min-hand{
+        position: relative;
+    }
+    .min-hand{
+     height: 148px;
+     width: 4px;
+     background-color: red;
+     left: 125px;
+    }
+    
+    .hour-hand-wrap{
+
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        border-radius: 50%;
+        top: 45px;
+    }
+    .hour-hand{
+        position: relative;
+    }
+    .hour-hand{
+     height: 90px;
+     width: 4px;
+     background-color: green;
+     left: 125px;
+     top: 30px;
+    }
+    .sec-hand-wrap{
+
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        border-radius: 50%;
+        top: 45px;
+    }
+    .sec-hand{
+        position: relative;
+    }
+    .sec-hand{
+     height: 100px;
+     width: 4px;
+     background-color: blue;
+     left: 125px;
+     top: 23px;    }
+   
